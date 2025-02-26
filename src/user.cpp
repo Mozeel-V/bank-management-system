@@ -63,7 +63,8 @@ void User::deposit(double amount) {
     if (amount > 0) {
         account_balance += amount;
         saveToJson();   // Saves the updated balance
-        cout << "Deposited $" << fixed << setprecision(2) << amount << " successfully." << endl;
+        cout << "Credited $" << fixed << setprecision(2) << amount << " successfully." << endl;
+        cout << "Updated Balance: $" << fixed << setprecision(2) << account_balance << endl;
     } else {
         cout << "Invalid amount!" << endl;
     }
@@ -74,7 +75,8 @@ bool User::withdraw(double amount) {
     if (amount > 0 && amount <= account_balance) {
         account_balance -= amount;
         saveToJson();   // Saves the updated balance
-        cout << "Withdrawn $" << fixed << setprecision(2) << amount << " successfully.\n";
+        cout << "Debited $" << fixed << setprecision(2) << amount << " successfully." << endl;
+        cout << "Updated Balance: $" << fixed << setprecision(2) << account_balance << endl;
         return true;
     } else {
         cout << "Insufficient balance or invalid amount!" << endl;
