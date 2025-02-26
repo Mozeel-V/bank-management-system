@@ -222,7 +222,7 @@ This project is **open-source** under the **MIT License**.
 
 ## 🏆 **Credits & Authors**
 👨‍💻 **Developed By:** Mozeel Vanwani  
-🔗 **IIT Kharagpur | CSE**  
+🎓 **IIT Kharagpur | CSE**  
 
 
 
