@@ -137,11 +137,6 @@ Bank Management System/
 ```
 
 
-
-Here’s the updated **README.md** section with the requested points integrated:
-
----
-
 ## 🛠️ **Code Explanation**
 
 ### **🔹 `User` Class (user.h & user.cpp)**
@@ -192,6 +187,7 @@ Account Number,Name,Balance,Type
 ✔ **Invalid Inputs** → If incorrect data is entered, prompts reappear for correction.  
 ✔ **Insufficient Balance** → Withdrawals are blocked if the account has insufficient funds.  
 ✔ **File Errors** → If JSON/CSV files fail to open, errors are displayed.
+
 
 ## 🔧 **Industry Readiness & Best Practices**
 - **Memory Efficiency**  
