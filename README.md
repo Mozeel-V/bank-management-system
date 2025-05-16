@@ -1,4 +1,4 @@
-# BankManagementSystem
+# Bank Management System
 A lightweight and scalable **C++ console application** featuring core banking functionalities with structured data storage in **JSON** and **CSV**.
 
 
