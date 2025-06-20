@@ -1,4 +1,9 @@
-# BankManagementSystem
+# Bank Management System
+![Made with C++](https://img.shields.io/badge/Made%20with-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-lightgrey?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+
 A lightweight and scalable **C++ console application** featuring core banking functionalities with structured data storage in **JSON** and **CSV**.
 
 
