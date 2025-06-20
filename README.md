@@ -39,8 +39,8 @@ A lightweight and scalable **C++ console application** featuring core banking fu
 ### **🔹 Steps to Run**  
 1️⃣ **Clone the Repository:**  
 ```sh
-git clone https://github.com/Mozeel-V/BankManagementSystem.git
-cd BankManagementSystem
+git clone https://github.com/Mozeel-V/bank-management-system.git
+cd bank-management-system
 ```
 
 2️⃣ **Compile the Code:**  
