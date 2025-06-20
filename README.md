@@ -62,7 +62,13 @@ OR
 ```sh
 make run
 ```
-4️⃣ **Clear the Database and Executables after use:** 
+
+4️⃣ **To Test the Program (optional):**
+```sh
+make test
+```
+
+5️⃣ **Clear the Database and Executables after use:** 
 ```sh
 make clean
 ```
@@ -122,22 +128,25 @@ Bank Management System/
 ├── .gitignore                 # Specifies files and directories that should be ignored by Git
 ├── LICENSE                    # Open-source MIT license for the project
 ├── README.md                  # Project description, installation, usage, and details
-├── Makefile                   # Instructions for building and cleaning the project
-├── build/                     # Directory for future build artifacts (currently empty)
+├── Makefile                   # Instructions for building, cleaning and testing the project
+├── build/                     # Directory for future build artifacts
 │
 ├── data/                       # Directory containing data files (accounts.json, accounts.csv)
 │   ├── accounts.json
 │   └── accounts.csv
 │
-├── include/                   # Header files
+├── include/                    # Header files
 │   ├── json.hpp                # JSON library (external)
 │   └── user.h                  # User class definition
 │
 ├── src/                        # Source files
 │   └── user.cpp                # User class implementation
+│ 
+├── tests/
+│   ├── catch.hpp               # Catch2 single header file
+│   └── user_test.cpp           # Comprehensive Unit Testing
 │
-├── main.cpp                    # Main program entry point
-└── bin/                        # (Optional) Directory for executables (not used directly in this setup)
+└── main.cpp                    # Main program entry point
 ```
 
 

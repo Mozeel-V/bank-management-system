@@ -7,8 +7,9 @@ MAIN_SRC = main.cpp
 USER_SRC = src/user.cpp
 OBJS = main.o user.o
 
-# Executable Name
+# Executables
 TARGET = bank.exe
+TEST = user_tests.exe
 
 # Default Rule
 all: $(TARGET)
@@ -34,3 +35,11 @@ run: $(TARGET)
 	./$(TARGET)
 
 .PHONY: all clean run
+
+# Test build
+test: tests/user_test.cpp src/user.cpp
+	$(CXX) $(CXXFLAGS) tests/user_test.cpp src/user.cpp -o $(TEST)
+	./$(TEST)
+
+clean:
+	rm -f $(TARGET) $(TEST)

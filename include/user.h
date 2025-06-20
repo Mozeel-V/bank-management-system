@@ -46,5 +46,11 @@ public:
 
     // CSV Export
     static void exportToCSV(const std::vector<User>& users);
+
+    // Get-Set Methods for Testing
+    void setUserName(const std::string& name);
+    void setAccountType(Type type);
+    void setBalance(double balance);
+    double getBalance() const;
 };
 
