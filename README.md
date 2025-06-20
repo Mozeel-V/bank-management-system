@@ -40,7 +40,7 @@ cd BankManagementSystem
 
 2️⃣ **Compile the Code:**  
 ```sh
-g++ -o bank main.cpp user.cpp -std=c++17
+g++ -o bank main.cpp src/user.cpp -std=c++17 -Iinclude
 ```
 OR 
 
@@ -61,7 +61,6 @@ make run
 ```sh
 make clean
 ```
-
 
 ## 📖 **Usage Guide**  
 
@@ -159,7 +158,6 @@ Bank Management System/
 
 ### **🔹 Static Counter**
 - A **static counter** is used to generate unique account numbers. This ensures that each account number is distinct and incremented automatically with every new account creation.
-
 
 
 ## 📂 **Data Storage Formats**
