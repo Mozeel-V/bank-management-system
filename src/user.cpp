@@ -207,5 +207,25 @@ std::string User::getAccountNumber() const {
     return account_number;
 }
 
+// Get-Set Methods for Testing
+void User::setUserName(const std::string& name) {
+    this->user_name = name;
+    return;
+}
+
+void User::setAccountType(Type type) {
+    this->account_type = type;
+    return;
+}
+
+void User::setBalance(double balance) {
+    this->account_balance = balance;
+    return;
+}
+
+double User::getBalance() const {
+    return this->account_balance;
+}
+
 
 
